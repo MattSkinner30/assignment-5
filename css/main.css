@@ -53,6 +53,10 @@ nav a{
 	display: inline-block;
 }
 
+nav li:hover{
+	background-color: red;
+}
+
 body {
 	margin: 0;
 }
