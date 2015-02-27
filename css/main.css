@@ -8,17 +8,27 @@ html {
 	box-sizing: inherit;
 }
 
+
+
+
+
+
+.header-div {
+	overflow: hidden;
+}
+
 header {
 	background-color: #d05c2e;
-}
-header div {
-	padding-bottom: 2.5em;
 }
 
 h1 {
 	color: white;
 	text-align: center;
 	margin: 0 0 0 3rem;
+}
+
+h2 {
+	text-align: center;
 }
 
 .grain-logo {
@@ -32,9 +42,6 @@ h1 {
 }
 
 nav ul{
-	margin: 0;
-	padding: 0 0 0.5em 0;
-	width: 100%;
 	text-align: center;
 }
 
@@ -42,6 +49,7 @@ nav li {
 	display: inline-block;
 	width: 32%;
 	border: 1px solid black;
+	text-align: center;
 }
 
 nav a{
@@ -57,23 +65,114 @@ nav li:hover{
 	background-color: red;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 body {
 	margin: 0;
 }
 
-.float-left {
+.grains {
 	float: left;
 	width: 40%;
 	margin-right: 15px
 }
 
-.float-right {
-	float: right;
+.cereals {
 	width: 40%;
+	float: right;
 }
 
-.float-right-2 {
-	float: right;
+.quinoa {
 	width: 40%;
+	clear: right;
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mid-div {
+	background-color: #dc8252;
+}
+
+.corn {
+	width: 100%;
+}
+
+.oats {
+	width: 50%;
+}
+
+.rice {
+		width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+dt {
+	width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	background-color: #d05c2e;
+	margin: 0;
+}
+
+.footer-p {
+	margin: 0;
+	text-align: center;
+	padding: 1em 0 1em 0;
+	color: white;
+}
+/*
+.bottom-img {
+	float: left;
+	width: 25%;
+	clear: left;
+}
+
+.legume-p {
+	overflow: hidden;
+}
+*/
