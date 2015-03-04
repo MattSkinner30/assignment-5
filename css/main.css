@@ -8,6 +8,9 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	margin: 0;
+}
 
 
 
@@ -19,6 +22,8 @@ html {
 
 header {
 	background-color: #d05c2e;
+	overflow: hidden;
+	width: 100%;
 }
 
 h1 {
@@ -29,8 +34,11 @@ h1 {
 
 h2 {
 	text-align: center;
-	clear: both;
 }
+
+
+
+
 
 .grain-logo {
 	max-width: 70px;
@@ -42,27 +50,32 @@ h2 {
 	float: right;
 }
 
-nav ul{
-	text-align: center;
+
+nav ol{
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
 }
 
 nav li {
-	display: inline-block;
-	width: 32%;
+	display: block;
 	border: 1px solid black;
+	width: 32.5%;
 	text-align: center;
+	float: left;
 }
 
-nav a{
+nav li a{
 	color: white;
 	text-decoration: none;
 	background-color: #d05c2e;
-	padding: 0.2em 0.5em 0.1em 0.5em;
 	text-align: center;
-	display: inline-block;
+	display: block;
+	width: 100%;
 }
 
-nav li:hover{
+nav li a:hover{
 	background-color: red;
 }
 
@@ -81,18 +94,26 @@ nav li:hover{
 .grains {
 	float: left;
 	width: 40%;
-	margin-right: 15px
+	margin-right: 15px;
+	border: 1px solid black;
 }
 
 .cereals {
 	width: 40%;
 	float: right;
+	margin-left: 15px;
+	border: 1px solid black;
 }
 
 .quinoa {
 	width: 40%;
 	clear: right;
 	float: right;
+	margin-top: 1em;
+	margin-left: 15px;
+	margin-bottom: 1em;
+	border: 1px solid black;
+
 }
 
 
@@ -100,19 +121,34 @@ nav li:hover{
 
 
 
-
+.mid-h2 {
+	color: white
+}
 
 .mid-div {
 	background-color: #dc8252;
 	overflow: hidden;
+	clear: both;
 }
 
 .corn {
 	width: 100%;
 }
 
+.corn-fig {
+	margin: 0;
+}
+
+.rice-caption, .oats-caption {
+	color: white;
+	font-style: italic;
+	padding-bottom: 1em;
+}
 .corn-caption {
 	text-align: center;
+	color: white;
+	font-style: italic;
+	padding-bottom: 1em;
 }
 
 .rice, .oats {
@@ -122,14 +158,13 @@ nav li:hover{
 .rice-fig {
 	float: left;
 	margin: 0;
+	width: 50%;
+	text-align: center;
 }
 
 .oats-fig{
 	float: right;
 	margin: 0;
-}
-
-.rice-fig, .oats-fig {
 	width: 50%;
 	text-align: center;
 }
@@ -137,16 +172,23 @@ nav li:hover{
 
 
 
-dt {
-	width: 40%;
-}
+
 
 .bottom-img {
-	width: 100%;
+	width: 30%;
+	float: left;
 }
 
 .legume-p {
 	float: right;
+	text-decoration: none;
+	font-style: italic;
+	clear: both;
+
+}
+
+.bottom-li {
+	list-style-type: none;
 }
 
 
@@ -157,6 +199,8 @@ dt {
 footer {
 	background-color: #d05c2e;
 	margin: 0;
+	overflow: hidden;
+	clear: both;
 }
 
 .footer-p {
