@@ -29,6 +29,7 @@ h1 {
 
 h2 {
 	text-align: center;
+	clear: both;
 }
 
 .grain-logo {
@@ -73,10 +74,7 @@ nav li:hover{
 
 
 
-
-
-
-body {
+.top-div {
 	margin: 0;
 }
 
@@ -94,18 +92,8 @@ body {
 .quinoa {
 	width: 40%;
 	clear: right;
-
+	float: right;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -116,38 +104,50 @@ body {
 
 .mid-div {
 	background-color: #dc8252;
+	overflow: hidden;
 }
 
 .corn {
 	width: 100%;
 }
 
-.oats {
+.corn-caption {
+	text-align: center;
+}
+
+.rice, .oats {
+	width: 100%;
+}
+
+.rice-fig {
+	float: left;
+	margin: 0;
+}
+
+.oats-fig{
+	float: right;
+	margin: 0;
+}
+
+.rice-fig, .oats-fig {
 	width: 50%;
+	text-align: center;
 }
-
-.rice {
-		width: 50%;
-}
-
-
-
-
-
-
 
 
 
 
 dt {
-	width: 25%;
+	width: 40%;
 }
 
+.bottom-img {
+	width: 100%;
+}
 
-
-
-
-
+.legume-p {
+	float: right;
+}
 
 
 
