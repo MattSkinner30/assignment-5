@@ -36,7 +36,7 @@ header {
 h1 {
 	color: white;
 	text-align: center;
-	margin: 0 0 0 3rem;
+	margin: 1rem 0 0 3rem;
 }
 
 h2 {
@@ -63,6 +63,7 @@ nav ol{
 	padding-left: 0;
 	padding-right: 0;
 	width: 100%;
+	display: block;
 }
 
 nav li {
